@@ -1,0 +1,777 @@
+/*  
+Theme Name: Duxpel
+Theme URI: http://
+Description: Duxpel
+Version: 1.0
+Author:
+Author URI:
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+	background: #fff url(http://www.duxpel.com/images/css_images/bg.gif) repeat-x;
+	color: #11313f;
+	margin: 0px;
+	padding: 0px;
+}
+a  {
+	color: #3e9ac6;
+	border: none;
+	text-decoration: none;
+}
+a:hover  {
+	color: #336699;
+         text-decoration: none;
+         border: none;
+	
+}
+#left_content ul{
+ 	margin: 0 0 15px 20px;
+}
+#left_content ul li {
+	background:transparent url(http://www.duxpel.com/images/css_images/list-blue.png) no-repeat 0 2px;
+	list-style-type:none;
+	padding:0 0 5px 20px;
+}
+p {
+	margin: 0 2px 15px 0;
+}
+img, a img  {
+	border: none;
+	background: none;
+}
+
+h1, h2, h3, h4, h5  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+h2, h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.frontpage {
+	display:block;
+	width:300px;
+	height:100px;
+	border: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-indent:-9009px;
+}
+.frontpage a {
+	display:block;
+	outline:none;
+	width:100%;
+	height:100%;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+.alignleft  {
+	float: left;
+}
+.alignright  {
+	float: right;
+}
+.wrapper  {
+	width: 960px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+#center_content {
+	width: 100%;
+	height: 70px;
+	background: #eee url(http://www.duxpel.com/images/css_images/center_content.gif) repeat-x bottom;
+	margin: 0px auto;
+}
+#center_content_front {
+	width: 100%;
+	height: 362px;
+	background: #eee url(http://www.duxpel.com/images/css_images/center_content_front.gif) repeat-x;
+	margin: 0px auto 20px auto;
+}
+.center_main {
+	width: 960px;
+	margin: 0px auto;
+	padding: 23px 0 0 0;
+}
+.center_main h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+#header {
+	width: 960px;
+	height: 125px;
+	float: left;
+	background: url(http://www.duxpel.com/images/css_images/header.gif) no-repeat 0 16px;
+}
+#header .frontpage a {
+	background: none;
+}
+
+#languages {
+	width: 960px;
+	height: 17px;
+	float: left;
+	text-align:right;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	color:#FFF;
+}
+
+#languages a{
+	color:#999;
+}
+
+#languages a:hover{
+	color:#FFF;
+}
+
+#languages img{
+	margin: 0 0 0 5px;
+}
+
+#menu {
+	width: 560px;
+	height: 44px;
+	float: right;
+	margin: 60px 0 0 0;
+	font-size: 15px;
+	font-weight: bold;
+}
+#menu ul  {
+	padding: 0;
+	margin: 0;
+	float: right;
+	list-style-type: none;
+}
+#menu ul li  {
+	height: 44px;
+	float: left;
+	margin: 0 0 0 10px;
+	text-align: center;
+	background: url(http://www.duxpel.com/images/css_images/menu_link.gif) no-repeat right top;
+	text-transform: uppercase;
+}	
+#menu ul li a {
+	height: 34px;
+	float: left;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	padding: 10px 18px 0 18px;
+	text-decoration: none;
+	background: url(http://www.duxpel.com/images/css_images/menu_link_left.gif) no-repeat left top;
+	text-shadow: 0px 1px 1px #000;
+}
+#menu ul li:hover {
+	background: url(http://www.duxpel.com/images/css_images/menu_link.gif) no-repeat right bottom;
+}
+#menu ul li a:hover  {
+	height: 34px;
+	float: left;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	background: url(http://www.duxpel.com/images/css_images/menu_link_left.gif) no-repeat left bottom;
+}
+#menu ul li.current_page_item {
+	height: 44px;
+	float: left;
+	text-align: center;
+	background: url(http://www.duxpel.com/images/css_images/menu_active.gif) no-repeat right top;
+}
+#menu ul li.current_page_item a{
+	height: 34px;
+	float: left;
+	text-align: center;
+	padding: 10px 18px 0 18px;
+	color: #fff;
+	background: url(http://www.duxpel.com/images/css_images/menu_active_left.gif) no-repeat left top;
+	text-shadow: 0px 1px 1px #000;
+}
+
+#menu ul li.current_page_item_1 {
+	height: 44px;
+	float: left;
+	text-align: center;
+	background: url(http://www.duxpel.com/images/css_images/menu_active.gif) no-repeat right top;
+}
+#menu ul li.current_page_item_1 a{
+	height: 34px;
+	float: left;
+	text-align: center;
+	padding: 10px 18px 0 18px;
+	color: #fff;
+	background: url(http://www.duxpel.com/images/css_images/menu_active_left.gif) no-repeat left top;
+	text-shadow: 0px 1px 1px #000;
+}
+#content {
+	width: 960px;
+	float: left;
+	margin: 20px 0 0 0;
+}
+/*--------- Bildscroller ----------*/
+.scroll_container {
+	width: 960px;
+	margin: 0px auto;
+}
+a.prev {
+	width: 40px;
+	height: 290px;
+	float: left;
+	background: url(http://www.duxpel.com/images/css_images/arrow_left.gif) no-repeat left;
+	cursor: pointer;
+}
+a.prev:hover {
+	background: url(http://www.duxpel.com/images/css_images/arrow_left_hover.png) no-repeat left;
+}
+a.next {
+	width: 40px;
+	height: 290px;
+	float: right;
+	background: url(http://www.duxpel.com/images/css_images/arrow_right.gif) no-repeat right;
+	cursor: pointer;
+}
+a.next:hover {
+	background: url(http://www.duxpel.com/images/css_images/arrow_right_hover.png) no-repeat right;
+}
+.navi {
+	width: 80px;
+	height: 16px;
+	float: right;
+	text-align: right;
+}
+.navi a {
+	width: 16px;
+	height: 16px;
+	margin: 0 4px;
+	display:block;
+	float: left;
+	background: url(http://www.duxpel.com/images/css_images/dot.gif) no-repeat;
+}
+.navi a:hover {
+	background: url(http://www.duxpel.com/images/css_images/dot.gif) no-repeat;
+}
+.navi a.active {
+	background: url(http://www.duxpel.com/images/css_images/dot_active.gif) no-repeat;
+}
+.scrollable { 
+    position: relative; 
+    overflow: hidden;          
+    width: 880px;     
+    height: 315px; 
+	float: left;
+	margin: 5px 0 0 0;
+} 
+.scrollable a {
+	color: #fff;
+}
+.scrollable a:hover {
+	color: #ccc;
+}
+.scrollable .items {      
+    width: 20000em;     
+    position: absolute;         
+} 
+.scrollable .items div { 
+    float: left; 
+	width: 880px;
+	height: 315px;
+	margin: 0;
+	color: #000;
+	font-size: 13px;
+} 
+.front_container {
+	width: 285px;
+	float: left;
+	border-right: 2px dotted #E9E9E9;
+	margin: 0 20px 0 0;
+	padding: 0 20px 0 0;
+}
+.front_container h3 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #11313f;
+	margin: 0 0 20px 0;
+}
+.front_container p strong a {
+	color: #dc711d;
+	font-size: 18px;
+}
+.front_container p strong a:hover {
+	background: #dc711d;
+	color: #fff;
+}
+.twitterbox {
+	float: left;
+	background: url(http://www.duxpel.com/images/social/twitter.gif) no-repeat 0 8px;
+	padding: 0 0 0 100px;
+}
+.twitterbox .twitter-timestamp, .twitter .twitter-timestamp {
+	margin: 2px 0 0 0;
+	color: #dc711d;
+}
+.twitterbox abbr {
+	border: none;
+}
+.twitter_follow {
+	float: left;
+	font-weight: bold;
+}
+a.twitter-link {
+	color: #11313f !important;
+	font-size: 18px;
+}
+a.twitter-link:hover {
+	color: #fffff !important;
+         background: #CCCCCC;
+}
+.share {
+	width: 305px;
+	float: left;
+	margin: 30px 0 0 0;
+}
+.right {
+	float: right;
+	margin: 0;
+	border: none;
+	padding: 0;
+	width: 305px;
+}
+/*-------- Undersida ---------*/
+#left_content {
+	width: 660px;
+	float: left;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+#left_content h2 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #478fb0;
+	margin: 0 0 11px 0;
+}
+#left_content h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #11313f;
+	margin: 0 0 5px 0;
+}
+#right_content {
+	width: 250px;
+	float: right;
+	margin:0;
+	padding:25px 0 0 50px;
+	background: url(http://www.duxpel.com/images/css_images/line.jpg) no-repeat top left;
+}
+#right_content h4 {
+	border-bottom:1px solid #dbdfe3;
+	color:#478FB0;
+	font-size:22px;
+	font-weight:bold;
+	margin:0 0 10px;
+	padding-bottom:5px;
+}
+ul.list li {
+	background:transparent url(http://www.duxpel.com/images/css_images/list-blue.png) no-repeat 0 2px;
+	list-style-type:none;
+	padding:0 0 5px 20px;
+	margin-left:20px;
+}
+ul.list {
+	margin-bottom:10px;
+}
+/*-- buybuttons --*/
+#left_content .buy_buttons {
+	width: 585px;
+	float: left;
+	margin: 0 0 25px 0;
+	font-weight: bold;
+	font-size: 17px;
+}
+#left_content .buy_buttons ul  {
+	padding: 0;
+	margin: 0;
+	float: left;
+	list-style-type: none;
+}
+#left_content .buy_buttons ul li  {
+	height: 44px;
+	float: left;
+	margin: 0 10px 0 -20px;
+	text-align: center;
+	background: url(http://www.duxpel.com/images/css_images/buy_button.gif) no-repeat right top;
+}	
+#left_content .buy_buttons ul li a {
+	height: 34px;
+	float: left;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	padding: 10px 15px 0 15px;
+	text-decoration: none;
+	background: url(http://www.duxpel.com/images/css_images/buy_button_left.gif) no-repeat left top;
+	text-shadow: 0px 1px 1px #000;
+}
+#left_content .buy_buttons ul li a:hover  {
+	height: 34px;
+	float: left;
+	margin: 0;
+	color: #fff;
+	text-decoration: underline;
+	text-align: center;
+	padding: 10px 15px 0 15px;
+}
+#left_content .buy_buttons ul li.current_page_item {
+	height: 44px;
+	float: left;
+	text-align: center;
+	background: url(http://www.duxpel.com/images/css_images/menu_active.gif) no-repeat right top;
+}
+#left_content .buy_buttons ul li.current_page_item a{
+	height: 34px;
+	float: left;
+	text-align: center;
+	padding: 10px 15px 0 15px;
+	color: #fff;
+	background: url(http://www.duxpel.com/images/css_images/menu_active_left.gif) no-repeat left top;
+	text-shadow: 0px 1px 1px #000;
+}
+/*-- Game Screenshots and Video --*/
+.screenshots {
+	margin-bottom: 20px;
+}
+.screenshots img {
+	border: 3px solid #e5e9ec;
+	background: #fff;
+	padding: 3px;
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+.screenshots img:hover {
+	border: 3px solid #478FB0;
+	background: #fff;
+}
+.videos {
+    width: 650px:
+	margin-bottom: 20px;
+}
+
+/*-- Socialbuttons --*/
+ul.socialbutton {
+	list-style-type:none;
+}
+ul.socialbutton a {
+	color:#11313F !important;
+	font-weight: bold;
+}
+ul.socialbutton a:hover {
+	color:#fff !important;
+	background:#11313F !important;
+}
+ul.socialbutton li.facebook {
+	background:transparent url(http://www.duxpel.com/images/social/facebook-mini.png) no-repeat;
+	list-style-type:none;
+	margin-left:5px;
+	padding:6px 0 9px 40px;
+}
+ul.socialbutton li.twitter  {
+	background:transparent url(http://www.duxpel.com/images/social/twitter-mini.png) no-repeat;
+	list-style-type:none;
+	margin-left:5px;
+	padding:6px 0 9px 40px;
+}
+ul.socialbutton li.youtube  {
+	background:transparent url(http://www.duxpel.com/images/social/youtube-mini.png) no-repeat;
+	list-style-type:none;
+	margin-left:5px;
+	padding:6px 0 9px 40px;
+}
+ul.socialbutton li.linkedin  {
+	background:transparent url(http://www.duxpel.com/images/social/linkedin-mini.png) no-repeat;
+	list-style-type:none;
+	margin-left:5px;
+	padding:6px 0 9px 40px;
+}
+
+/*-- news --*/
+.right_news {
+	background:transparent url(http://www.duxpel.com/images/css_images/sidebarbox.gif) no-repeat right bottom;
+	float:left;
+	margin:0 0 5px;
+	padding: 10px 10px 15px 0;
+	width:230px;
+}
+.right_news strong a, #right_content a {
+	color: #dc711d;
+}
+.right_news strong a:hover, #right_content a:hover {
+	background: #dc711d;
+	color: #fff;
+}
+/*-- Games --*/
+.right_games {
+	background:transparent url(http://www.duxpel.com/images/css_images/sidebarbox.gif) no-repeat right bottom;
+	float:left;
+	margin:0 0 5px;
+	padding: 10px 10px 15px 0;
+	width:230px;
+}
+.right_games ul {
+	margin: 0;
+	list-style-type: none;
+	font-size: 17px;
+	font-weight: bold;
+}
+.right_games ul li {
+	height: 28px;
+	padding: 10px 0 0 0;
+	background: url(http://www.duxpel.com/images/css_images/games_menu.gif) no-repeat;
+}
+.right_games ul li.current_page_item {
+	padding: 10px 0 0 10px;
+}
+.right_games ul li.current_page_item a {
+	color: #dc711d !important;
+}
+.right_games ul li.current_page_item a:hover {
+	background: none !important;
+}
+.right_games ul li a {
+	color: #1a475c !important;
+	padding: 3px 4px;
+}
+.right_games ul li a:hover {
+	background: #e9eff5 !important;
+}
+/*------ Blogg -----*/
+.post {
+	border-bottom:1px solid #c5cfd9;
+	float:left;
+	padding-bottom: 15px;
+	margin:0 0 20px;
+	width:660px;
+}
+.postmeta {
+	float:left;
+	width:660px;
+	color: #768695;
+	font-style: italic;
+	font-size: 13px;
+	padding-bottom: 10px;
+}
+.postmeta a {
+	color: #768695;
+	padding: 1px 2px
+}
+.postmeta a:hover {
+	color: #fff;
+	background:#768695;
+}
+.postmeta span.date, span.commentdate {
+	font-weight: bold;
+	color: #768695;
+	background:transparent url(http://www.duxpel.com/images/css_images/time.png) no-repeat scroll left center;
+	padding:2px 0 2px 20px;
+}
+.postmeta span.comments {
+	font-weight: bold;
+	background:transparent url(http://www.duxpel.com/images/css_images/comment.png) no-repeat scroll left center;
+	padding:2px 0 2px 20px;
+}
+.postmeta2 {
+	float:left;
+	width:660px;
+	color: #768695;
+	font-style: italic;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.postmeta2 a {
+	color: #768695;
+	padding: 1px 2px
+}
+.postmeta2 a:hover {
+	color: #fff;
+	background:#768695;
+}
+.postmeta2 span.date {
+	font-weight: bold;
+	background:transparent url(http://www.duxpel.com/images/css_images/time.png) no-repeat scroll left center;
+	padding:2px 0 2px 20px;
+}
+.postmeta2 span.comments {
+	font-weight: bold;
+	background:transparent url(http://www.duxpel.com/images/css_images/comment.png) no-repeat scroll left center;
+	padding:2px 0 2px 20px;
+}
+/*----- Kommentarer ------*/
+div#comments {
+	width: 660px;
+	float: left;
+	margin: 20px 0 0 0;
+	padding-top: 15px;
+	border-top:1px solid #C5CFD9;
+}
+#comments h2 {
+	border: none;
+	margin: 0 0 5px 0;
+}
+div#comments h3#comments {
+	margin: 0 0 5px 0;
+	border-bottom:1px solid #C5CFD9;
+	padding-bottom: 15px
+}
+div#respond h3 {
+	margin: 0 0 5px 0;
+	border-bottom:1px solid #C5CFD9;
+	padding-bottom: 10px
+}
+#comments label {
+	margin: 0 0 0 5px;
+}
+.comment {
+	width: 660px;
+	border-bottom:1px solid #C5CFD9;
+	float:left;
+	margin:0 0 10px;
+	padding:15px 0;
+}
+.comment_user {
+	width: 220px;
+	float: left;
+	border-right:1px solid #c5cfd9;
+}
+.comment_avatar {
+	width: 50px;
+	height: 50px;
+	float: left;
+	background: #eee url(http://www.duxpel.com/images/css_images/gravatar.jpg) no-repeat;
+	margin: 0 10px 5px 0;
+	background:#FFFFFF;
+	border:3px solid #E5E9EC;
+	padding:3px;
+}
+.comment_content {
+	width: 420px;
+	float: right;
+}
+form#commentform {
+	padding-top: 20px;
+}
+input, textarea {
+	border-top:1px solid #c5cfd9;
+	border-right:1px solid #c5cfd9;
+	border-left:1px solid #c5cfd9;
+	border-bottom:2px solid #3E9AC6;
+	padding: 8px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, serif;
+}
+input:hover, textarea:hover {
+	border-top:1px solid #768695;
+	border-right:1px solid #768695;
+	border-left:1px solid #768695;
+	border-bottom:2px solid #3E9AC6;
+	padding: 8px;
+	font-size: 16px;
+	background: #f9f9f9;
+	font-family: Arial, Helvetica, serif;
+}
+textarea {
+	width: 400px;
+}
+#submit {
+	background: #143747;
+	font-weight: bold;
+	border-top:2px solid #3E9AC6;
+	border-right:2px solid #3E9AC6;
+	border-left:2px solid #3E9AC6;
+	border-bottom:2px solid #3E9AC6;
+	color: #fff;
+}
+#submit:hover {
+	background: #3E9AC6;
+	font-weight: bold;
+	border-top:2px solid #143747;
+	border-right:2px solid #143747;
+	border-left:2px solid #143747;
+	border-bottom:2px solid #143747;
+}
+/*----- Sidear -----*/
+.sidebar_box {
+	background:transparent url(http://www.duxpel.com/images/css_images/sidebarbox.gif) no-repeat right bottom;
+	float:left;
+	margin:0 0 5px;
+	padding: 10px 10px 15px 0;
+	width:230px;
+}
+.sidebar_box ul {
+	list-style-type: none;
+}
+.sidebar_box ul li {
+	color:#768695;
+	background:transparent url(http://www.duxpel.com/images/css_images/list-blue.png) no-repeat 0 2px;
+	list-style-type:none;
+	margin-left:7px;
+	padding:0 0 5px 20px;
+}
+.sidebar_box ul.twitter {
+	list-style-type: none;
+}
+.sidebar_box ul.twitter li {
+	color: #11313f;
+	background:transparent url(http://www.duxpel.com/images/social/twitter.jpg) no-repeat 0 20px;
+	list-style-type:none;
+	margin-left:7px;
+	padding:0 0 5px 66px;
+}
+h4 a.twitter_title_link, h4 a.twitter_title_link:hover {
+	color:#478FB0 !important;
+	background: none !important;
+}
+.twitter .twitter-timestamp {
+	color:#768695;
+}
+.twitter a.twitter-link {
+	font-size: 15px;
+	color: #DC711D !important;
+}
+.twitter a.twitter-link:hover {
+	font-size: 15px;
+	color: #fff !important;
+         background: #11313f;
+}
+#footer {
+	width: 960px;
+	float: left;
+	padding: 15px 0 0 0;
+	margin: 25px 0 10px 0;
+	background: url(http://www.duxpel.com/images/css_images/footer.gif) repeat-x;
+	text-align:center;
+}
+#footer p {
+	font-size: 13px;
+	margin: 0;
+}
+#footer span.smaller {
+	font-size: 11px;
+}
+#footer a {
+	color: #11313f;
+	border-bottom:1px dotted #c5cfd9;
+}
+#footer a:hover {
+	background: #11313f;
+	color: #fff;
+}
